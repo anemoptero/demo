@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS Currency;
+CREATE TABLE Currency(
+	name VARCHAR(10) PRIMARY KEY,
+	chinese_name VARCHAR(10)
+);
